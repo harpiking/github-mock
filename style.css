@@ -551,11 +551,11 @@ label, textarea {
 }
 }
 @media only screen and (max-width: 400px) {
-  .{
-    font-size: 11px;
-   padding-right: 7px;
+  .top a{
+    font-size: 12px;
+   padding-right: 6px;
   }
-  .contentP{
-    margin-right: 0;
-  }
+.num{
+  font-size: 10px;
+}
 }
