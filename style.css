@@ -86,7 +86,7 @@ a {
 .top {
  padding-top: 30px;
  padding-left: 26%;
- padding-bottom: 15px;
+ padding-bottom: 13px;
  border-bottom: solid 1px #e1e4e8;
 }
 
@@ -108,7 +108,6 @@ a {
 }
 
 .top a:hover {
- padding-bottom: 14px;
  border-bottom: 2px solid transparent;
  transition: border-bottom-color 9s ease-in;
 }
@@ -175,7 +174,7 @@ a {
 
 .contentP {
  padding:10px 0 20px;
- margin-right: 20px;
+ margin-right: 10px;
  font-weight: 300;
  border-bottom: solid 1px #e1e4e8;
  display: flex;
@@ -466,12 +465,12 @@ label, textarea {
 
  .top {
    padding-left: 25px;
-   padding-bottom: 10px;
+   padding-bottom: 12px;
    text-align: left;
  }
 .top a {
    margin: 0;
-   padding-bottom: 12px;
+   padding-bottom: 14px;
    padding-right: 20px;
  }
  .top-lg{
@@ -547,5 +546,16 @@ label, textarea {
    position: relative;
    right: -100px;
  }
-
+.hide, .hidden{
+  display: none;
+}
+}
+@media only screen and (max-width: 400px) {
+  .{
+    font-size: 11px;
+   padding-right: 7px;
+  }
+  .contentP{
+    margin-right: 0;
+  }
 }
